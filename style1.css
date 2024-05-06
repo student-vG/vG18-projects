@@ -1,0 +1,72 @@
+#navbar{
+height: 50px;
+width:auto;
+background-color: black;
+color: white;
+box-shadow: 2px 8px 15px rgba(122, 122, 122, 0.799);
+
+}
+#search{
+    position: relative;
+    right:15px;
+}
+button {
+    margin-right: 2px;
+background-color: orange;
+border-radius: 25px;
+display: inline;
+transition: ease-in-out;
+}
+button:hover {
+    color: orangered;
+    background-color: white;
+    background-blend-mode: color-burn;
+}
+#logo{
+    margin-left: 5px;
+    color: rgb(245, 212, 4);
+    font-size: 40px;
+    text-shadow: 0 2px 8px rgb(251, 194, 88);
+}
+a {
+margin-right: 200px;
+
+}
+p{
+    line-height: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+    color:white;
+    height:2px;
+    width: 20px;
+    transition: ease-in-out;
+
+
+}
+a:hover{
+    color: orange;
+    background-blend-mode: color-burn;
+}
+#wlc{
+    font-size: 25px;
+    text-shadow: 0 2px 5px solid black;
+    font-family: monospace;
+
+}
+body{
+    background-image: url("bg155.jpg");
+    background-size:cover;
+    background-position: center;
+}
+#fotter {
+    position: relative;
+    top:800px;
+ background-color: black;
+    box-shadow: 2px 8px 15px rgba(122, 122, 122, 0.799);
+    color:white;
+   text-align: center;
+   border-radius: 25px;
+ 
+}
